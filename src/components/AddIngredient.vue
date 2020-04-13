@@ -98,9 +98,12 @@ export default {
 	display: block;
     position: absolute;
     width: 100%;
-    border-width: 1px;
-    border-color: #feebc8;
-    background-color: #fff;
     z-index: 10;
+}
+
+.autosuggest__results {
+	border-width: 1px;
+    border-color: #2b3e50;
+    background-color: #fff;
 }
 </style>
