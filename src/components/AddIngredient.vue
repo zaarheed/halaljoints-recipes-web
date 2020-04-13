@@ -39,14 +39,12 @@ export default {
 			limit: 10,
 			options: [{
 				data: topIngredients
-			}],
-			selected: ''
+			}]
 		}
 	},
 	methods: {
 		onSelected(option) {
 			this.$store.commit('addIngredient', option.item);
-			this.selected = option.item;
 		},
 		onInputChange(text) {
 
