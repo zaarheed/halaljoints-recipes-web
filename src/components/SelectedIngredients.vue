@@ -1,5 +1,5 @@
 <template>
-	<div class="selected-ingredients-wrapper">
+	<div class="mx-3 selected-ingredients-wrapper">
 		<ul class="min-h-20">
 			<li
 				v-for="ingredient of selectedIngredients"
@@ -9,6 +9,9 @@
 			>
 				{{ingredient}}
 				<span className="px-1 text-red-600">x</span>
+			</li>
+			<li v-if="selectedIngredients.length < 1" class="text-white">
+				Selected ingredients will appear here
 			</li>
 		</ul>
 	</div>
@@ -20,7 +23,6 @@ export default {
 	name: 'SelectedIngredients',
 	computed: {
 		selectedIngredients () {
-			console.log("selected ingredients", this.$store);
 			return this.$store.state.selectedIngredients;
 		}
 	},
