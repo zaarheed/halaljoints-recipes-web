@@ -9,8 +9,10 @@
 				:limit="limit"
 				:suggestions="filteredOptions"
 				:input-props="inputProps"
+				:should-render-suggestions="shouldRenderSuggestions"
 				@input="onInputChange"
 				@selected="onSelected"
+				v-model="selected"
 			>
 				<template class="suggestions-container" slot-scope="{suggestion}">
 					<div class="suggestion">
@@ -28,6 +30,9 @@ import topIngredients from "../static-data/top-ingredients.json";
 
 export default {
 	name: 'AddIngredient',
+	computed: {
+
+	},
 	data() {
 		return {
 			filteredOptions: [],
@@ -39,11 +44,14 @@ export default {
 			limit: 10,
 			options: [{
 				data: topIngredients
-			}]
+			}],
+			selected: null
 		}
 	},
 	methods: {
 		onSelected(option) {
+			this.selected = null;
+			this.filteredOptions = [];
 			this.$store.commit('addIngredient', option.item);
 		},
 		onInputChange(text) {
@@ -60,6 +68,9 @@ export default {
 			this.filteredOptions = [{
 				data: filteredData
 			}];
+		},
+		shouldRenderSuggestions(size) {
+			return size > 0;
 		}
     },
 	props: {},
