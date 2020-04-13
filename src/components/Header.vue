@@ -31,6 +31,7 @@ header {
 	background: #13293D;
 	background-image: url("../assets/header-bg.png");
 	background-position: center;
-	background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 </style>
