@@ -7,12 +7,17 @@
 
 			<VueAutosuggest
 				:limit="limit"
-				:on-selected="onSelected"
 				:suggestions="filteredOptions"
 				:input-props="inputProps"
 				@input="onInputChange"
-			/>
-			
+				@selected="onSelected"
+			>
+				<template class="suggestions-container" slot-scope="{suggestion}">
+					<div class="suggestion">
+						{{suggestion.item}}
+					</div>
+				</template>
+			</VueAutosuggest>
 		</div>
 	</div>
 </template>
@@ -27,7 +32,7 @@ export default {
 		return {
 			filteredOptions: [],
 			inputProps: {
-				class: "appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500",
+				class: "appearance-none block w-full bg-transparent text-white border border-white rounded py-3 px-4 mb-0 leading-tight focus:outline-none focus:bg-transparent focus:border-gray-500",
 				id: "search-ingredient",
 				placeholder: "eg. Chicken Breast"
 			},
@@ -40,6 +45,7 @@ export default {
 	},
 	methods: {
 		onSelected(option) {
+			this.$store.commit('addIngredient', option.item);
 			this.selected = option.item;
 		},
 		onInputChange(text) {
@@ -65,5 +71,27 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+.suggestion {
+	padding: 0.75rem 1rem;
+}
+
+.suggestion:hover {
+	background: #2b3e50;
+}
+
+#autosuggest {
+	position: relative;
+	width: 100%;
+}
+
+.autosuggest__results-container {
+	display: block;
+    position: absolute;
+    width: 100%;
+    border-width: 1px;
+    border-color: #feebc8;
+    background-color: #fff;
+    z-index: 10;
+}
 </style>

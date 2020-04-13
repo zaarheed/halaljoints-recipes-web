@@ -23,7 +23,14 @@ export default {
 </script>
 
 <style scoped>
+header {
+	padding-bottom: 2rem;
+}
+
 .bg-dark {
 	background: #13293D;
+	background-image: url("../assets/header-bg.png");
+	background-position: center;
+	background-size: contain;
 }
 </style>

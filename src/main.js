@@ -9,15 +9,13 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
 	state: {
-		selectedIngredients: ["chicken breast", "tomatoes"]
+		selectedIngredients: []
 	},
 	mutations: {
 		addIngredient(state, ingredientName) {
-			console.log("add");
-			state.selectedIngredients = state.selectedIngredients.map(x => x).push(ingredientName);
+			state.selectedIngredients = [...state.selectedIngredients, ingredientName];
 		},
 		removeIngredient(state, ingredientName) {
-			console.log("remove");
 			state.selectedIngredients = state.selectedIngredients.filter(i => i !== ingredientName);
 		}
 	}
