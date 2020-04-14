@@ -1,13 +1,16 @@
 <template>
 	<header class="bg-dark bg-image header">
-		<img src="../assets/logo.png" class="w-64 m-auto mb-4">
-		<h1 class="font-sans text-3xl text-center text-white mb-2">Lockdown Recipes</h1>
+		<div class="flex flex-row mb-1 justify-end">
+			<img src="../assets/logo.png" class="w-40">
+		</div>
+		<h1 class="font-sans text-3xl text-center text-light font-bold">Ramadan Recipes</h1>
+		<h2 class="font-sans text-sm text-center text-light mb-4 uppercase tracking-widest font-thin">Lockdown Edition</h2>
 
 		<AddIngredient />
 		<SelectedIngredients />
 
 		<section class="flex px-3 text-white justify-end py-2">
-			<button class="bg-transparent hover:bg-transparent text-white bg-dark font-semibold py-2 px-4 border border-gray-400 rounded shadow" v-on:click="getRecipes">
+			<button class="bg-dark text-light bg-dark font-semibold py-2 px-4 border border-gray-400 rounded shadow" v-on:click="getRecipes">
 				Get Recipes!
 			</button>
 		</section>
@@ -36,10 +39,6 @@ export default {
 <style scoped>
 header {
 	padding-bottom: 2rem;
-}
-
-.bg-dark {
-	background: #13293D;
 }
 
 .bg-image {
