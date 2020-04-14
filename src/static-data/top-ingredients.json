@@ -1,12 +1,6 @@
 [
 	{
-		"name": "5 spice powder"
-	},
-	{
 		"name": "acorn squash"
-	},
-	{
-		"name": "adobo sauce"
 	},
 	{
 		"name": "agave nectar"
@@ -30,34 +24,19 @@
 		"name": "almonds"
 	},
 	{
-		"name": "amaretto"
-	},
-	{
 		"name": "ancho chiles"
 	},
 	{
 		"name": "anchovies"
 	},
 	{
-		"name": "andouille sausage"
-	},
-	{
-		"name": "angel food cake mix"
-	},
-	{
 		"name": "angel hair pasta"
-	},
-	{
-		"name": "angostura bitters"
 	},
 	{
 		"name": "apple"
 	},
 	{
 		"name": "apple butter spread"
-	},
-	{
-		"name": "apple cider"
 	},
 	{
 		"name": "apple juice"
@@ -123,18 +102,6 @@
 		"name": "baby spinach leaves"
 	},
 	{
-		"name": "baby-back ribs"
-	},
-	{
-		"name": "baby-back ribs"
-	},
-	{
-		"name": "bacon"
-	},
-	{
-		"name": "bacon fat"
-	},
-	{
 		"name": "baguette"
 	},
 	{
@@ -187,12 +154,6 @@
 	},
 	{
 		"name": "beef tenderloin"
-	},
-	{
-		"name": "beer"
-	},
-	{
-		"name": "beer"
 	},
 	{
 		"name": "beets"
@@ -252,9 +213,6 @@
 		"name": "bourbon"
 	},
 	{
-		"name": "brandy"
-	},
-	{
 		"name": "bread"
 	},
 	{
@@ -289,6 +247,9 @@
 	},
 	{
 		"name": "bulgur"
+	},
+	{
+		"name": "burger buns"
 	},
 	{
 		"name": "butter"
@@ -423,9 +384,6 @@
 		"name": "cereal"
 	},
 	{
-		"name": "champagne"
-	},
-	{
 		"name": "chana dal"
 	},
 	{
@@ -555,9 +513,6 @@
 		"name": "chocolate wafer cookies"
 	},
 	{
-		"name": "chorizo sausage"
-	},
-	{
 		"name": "cider vinegar"
 	},
 	{
@@ -654,16 +609,10 @@
 		"name": "confectioner's swerve"
 	},
 	{
-		"name": "cooked bacon"
-	},
-	{
 		"name": "cooked brown rice"
 	},
 	{
 		"name": "cooked chicken breast"
-	},
-	{
-		"name": "cooked ham"
 	},
 	{
 		"name": "cooked long grain rice"
@@ -834,19 +783,10 @@
 		"name": "deep dish pie crust"
 	},
 	{
-		"name": "deli ham"
-	},
-	{
 		"name": "deli turkey"
 	},
 	{
 		"name": "dessert oats"
-	},
-	{
-		"name": "dessert wine"
-	},
-	{
-		"name": "diced ham"
 	},
 	{
 		"name": "diet pop"
@@ -909,13 +849,7 @@
 		"name": "dry mustard"
 	},
 	{
-		"name": "dry red wine"
-	},
-	{
 		"name": "dry roasted peanuts"
-	},
-	{
-		"name": "duck fat"
 	},
 	{
 		"name": "dutch process cocoa powder"
@@ -1284,12 +1218,6 @@
 		"name": "ground nutmeg"
 	},
 	{
-		"name": "ground pork"
-	},
-	{
-		"name": "ground pork sausage"
-	},
-	{
 		"name": "ground veal"
 	},
 	{
@@ -1303,12 +1231,6 @@
 	},
 	{
 		"name": "halibut fillet"
-	},
-	{
-		"name": "ham"
-	},
-	{
-		"name": "hamburger buns"
 	},
 	{
 		"name": "hard cooked eggs"
@@ -1383,9 +1305,6 @@
 		"name": "italian cheese blend"
 	},
 	{
-		"name": "italian sausages"
-	},
-	{
 		"name": "italian seasoning"
 	},
 	{
@@ -1414,9 +1333,6 @@
 	},
 	{
 		"name": "kaffir lime leaves"
-	},
-	{
-		"name": "kahlua"
 	},
 	{
 		"name": "kalamata olives"
@@ -1453,9 +1369,6 @@
 	},
 	{
 		"name": "lean ground turkey"
-	},
-	{
-		"name": "lean pork tenderloin"
 	},
 	{
 		"name": "leeks"
@@ -1536,9 +1449,6 @@
 		"name": "liquid stevia"
 	},
 	{
-		"name": "liquor"
-	},
-	{
 		"name": "live lobster"
 	},
 	{
@@ -1581,16 +1491,10 @@
 		"name": "m&m candies"
 	},
 	{
-		"name": "macadamia nuts"
-	},
-	{
 		"name": "macaroni and cheese mix"
 	},
 	{
 		"name": "madras curry powder"
-	},
-	{
-		"name": "malt drink mix"
 	},
 	{
 		"name": "mandarin orange sections"
@@ -1617,9 +1521,6 @@
 		"name": "marjoram"
 	},
 	{
-		"name": "marsala wine"
-	},
-	{
 		"name": "marshmallow fluff"
 	},
 	{
@@ -1639,9 +1540,6 @@
 	},
 	{
 		"name": "mayonnaise"
-	},
-	{
-		"name": "meat"
 	},
 	{
 		"name": "meat"
@@ -1809,9 +1707,6 @@
 		"name": "palm sugar"
 	},
 	{
-		"name": "pancetta"
-	},
-	{
 		"name": "paneer"
 	},
 	{
@@ -1869,12 +1764,6 @@
 		"name": "peanuts"
 	},
 	{
-		"name": "pear liqueur"
-	},
-	{
-		"name": "pearl barley"
-	},
-	{
 		"name": "pearl onions"
 	},
 	{
@@ -1906,9 +1795,6 @@
 	},
 	{
 		"name": "peppermint extract"
-	},
-	{
-		"name": "pepperoni"
 	},
 	{
 		"name": "peppers"
@@ -1992,9 +1878,6 @@
 		"name": "polenta"
 	},
 	{
-		"name": "polish sausage"
-	},
-	{
 		"name": "pomegranate juice"
 	},
 	{
@@ -2010,46 +1893,7 @@
 		"name": "poppy seeds"
 	},
 	{
-		"name": "pork"
-	},
-	{
-		"name": "Pork & Beans"
-	},
-	{
-		"name": "pork belly"
-	},
-	{
-		"name": "pork butt"
-	},
-	{
-		"name": "pork chops"
-	},
-	{
-		"name": "pork links"
-	},
-	{
-		"name": "pork loin chops"
-	},
-	{
-		"name": "pork loin roast"
-	},
-	{
-		"name": "pork roast"
-	},
-	{
-		"name": "pork shoulder"
-	},
-	{
-		"name": "pork tenderloin"
-	},
-	{
-		"name": "port"
-	},
-	{
 		"name": "portabella mushrooms"
-	},
-	{
-		"name": "pot roast"
 	},
 	{
 		"name": "potato chips"
@@ -2071,9 +1915,6 @@
 	},
 	{
 		"name": "processed american cheese"
-	},
-	{
-		"name": "prosciutto"
 	},
 	{
 		"name": "provolone cheese"
@@ -2148,9 +1989,6 @@
 		"name": "ready-to-serve Asian fried rice"
 	},
 	{
-		"name": "real bacon recipe pieces"
-	},
-	{
 		"name": "red apples"
 	},
 	{
@@ -2194,12 +2032,6 @@
 	},
 	{
 		"name": "red velvet cookie"
-	},
-	{
-		"name": "red wine"
-	},
-	{
-		"name": "red wine vinegar"
 	},
 	{
 		"name": "reduced fat shredded cheddar cheese"
@@ -2247,9 +2079,6 @@
 		"name": "rice vinegar"
 	},
 	{
-		"name": "rice wine"
-	},
-	{
 		"name": "ricotta salata"
 	},
 	{
@@ -2292,12 +2121,6 @@
 		"name": "round steak"
 	},
 	{
-		"name": "rub"
-	},
-	{
-		"name": "rum extract"
-	},
-	{
 		"name": "runny honey"
 	},
 	{
@@ -2305,12 +2128,6 @@
 	},
 	{
 		"name": "rutabaga"
-	},
-	{
-		"name": "rye bread"
-	},
-	{
-		"name": "rye meal"
 	},
 	{
 		"name": "saffron threads"
@@ -2325,16 +2142,10 @@
 		"name": "salad dressing"
 	},
 	{
-		"name": "salami"
-	},
-	{
 		"name": "salmon fillet"
 	},
 	{
 		"name": "salsa"
-	},
-	{
-		"name": "salsa verde"
 	},
 	{
 		"name": "salt"
@@ -2350,15 +2161,6 @@
 	},
 	{
 		"name": "sandwich bun"
-	},
-	{
-		"name": "sauerkraut"
-	},
-	{
-		"name": "sausage"
-	},
-	{
-		"name": "sausage links"
 	},
 	{
 		"name": "scotch bonnet chili"
@@ -2425,9 +2227,6 @@
 	},
 	{
 		"name": "sherry vinegar"
-	},
-	{
-		"name": "shiitake mushroom caps"
 	},
 	{
 		"name": "short grain rice"
@@ -2508,9 +2307,6 @@
 		"name": "smoked salmon"
 	},
 	{
-		"name": "smoked sausage"
-	},
-	{
 		"name": "smooth peanut butter"
 	},
 	{
@@ -2545,9 +2341,6 @@
 	},
 	{
 		"name": "spaghetti squash"
-	},
-	{
-		"name": "sparkling wine"
 	},
 	{
 		"name": "spelt flour"
@@ -2587,12 +2380,6 @@
 	},
 	{
 		"name": "stock"
-	},
-	{
-		"name": "store-bought phyllo"
-	},
-	{
-		"name": "stout"
 	},
 	{
 		"name": "strawberries"
@@ -2697,9 +2484,6 @@
 		"name": "tea bags"
 	},
 	{
-		"name": "tequila"
-	},
-	{
 		"name": "teriyaki sauce"
 	},
 	{
@@ -2710,9 +2494,6 @@
 	},
 	{
 		"name": "thai red curry paste"
-	},
-	{
-		"name": "thick-cut bacon"
 	},
 	{
 		"name": "tilapia fillets"
@@ -2754,9 +2535,6 @@
 		"name": "top round steak"
 	},
 	{
-		"name": "Top Sirloin"
-	},
-	{
 		"name": "tortilla"
 	},
 	{
@@ -2778,6 +2556,9 @@
 		"name": "turkey"
 	},
 	{
+		"name": "turkey bacon"
+	},
+	{
 		"name": "turkey breast"
 	},
 	{
@@ -2794,9 +2575,6 @@
 	},
 	{
 		"name": "unsalted butter"
-	},
-	{
-		"name": "unsmoked back bacon"
 	},
 	{
 		"name": "unsweetened applesauce"
@@ -2853,16 +2631,7 @@
 		"name": "vegetarian bacon"
 	},
 	{
-		"name": "vermouth"
-	},
-	{
-		"name": "vinaigrette"
-	},
-	{
 		"name": "vinegar"
-	},
-	{
-		"name": "vodka"
 	},
 	{
 		"name": "walnuts"
@@ -2898,12 +2667,6 @@
 		"name": "whipping cream"
 	},
 	{
-		"name": "whiskey"
-	},
-	{
-		"name": "white balsamic vinegar"
-	},
-	{
 		"name": "white bread"
 	},
 	{
@@ -2926,12 +2689,6 @@
 	},
 	{
 		"name": "white whole wheat flour"
-	},
-	{
-		"name": "white wine"
-	},
-	{
-		"name": "white wine vinegar"
 	},
 	{
 		"name": "whole allspice berries"
@@ -2964,12 +2721,6 @@
 		"name": "whole-grain mustard"
 	},
 	{
-		"name": "wine"
-	},
-	{
-		"name": "wine vinegar"
-	},
-	{
 		"name": "winter squash"
 	},
 	{
@@ -2980,9 +2731,6 @@
 	},
 	{
 		"name": "wraps"
-	},
-	{
-		"name": "xanthan gum"
 	},
 	{
 		"name": "yeast"
