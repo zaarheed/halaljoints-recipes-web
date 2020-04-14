@@ -24,7 +24,7 @@
 			<div class="p-6">
 				<h3 class="text-xl mb-2">Ingredients</h3>
 				<ul>
-					<li class="text-sm text-gray-600 p-3 bg-gray-100 odd:bg-gray-200 ingredient" v-for="ingredient of recipe.extendedIngredients" :key="ingredient.id">
+					<li class="text-sm text-gray-600 p-3 bg-gray-100 odd:bg-gray-200 mb-1 ingredient" v-for="ingredient of recipe.extendedIngredients" :key="ingredient.id">
 						{{ingredient.original}}
 					</li>
 				</ul>
