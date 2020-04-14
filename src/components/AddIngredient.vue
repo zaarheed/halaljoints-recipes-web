@@ -95,7 +95,7 @@ export default {
 	display: block;
     position: absolute;
     width: 100%;
-    z-index: 10;
+    z-index: 100;
 }
 
 .autosuggest__results {
