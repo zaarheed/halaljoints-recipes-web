@@ -1,6 +1,6 @@
 <template>
 	<div id="app">
-		<div class="font-body flex flex-col container mx-auto">
+		<div class="font-body flex flex-col">
 			<Header />
 			<Main />
 		</div>

@@ -3,10 +3,10 @@
 
 		<div class="absolute z-20 w-16 h-16 flex justify-center items-center right-0">
 			<div
-				class="w-10 h-10 bg-orange-500 rounded-full leading-10 text-white hover:bg-orange-400 focus:outline-none flex items-center justify-center cursor-pointer"
+				class="w-10 h-10 bg-dark rounded-full leading-10 text-white hover:bg-dark focus:outline-none flex items-center justify-center cursor-pointer"
 				v-on:click="openPopup"
 			>
-				<img class="h-6 w-6" src="../assets/expand.svg" alt="Expand Icon" />
+				<img class="h-4 w-4" src="../assets/expand.svg" alt="Expand Icon" />
 			</div>
 		</div>
 		
@@ -75,5 +75,5 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 </style>

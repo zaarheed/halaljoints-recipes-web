@@ -1,5 +1,5 @@
 <template>
-	<main>
+	<main class="container mx-auto">
 		<section class="px-3 mb-1 py-2">
 			<RecipesList />
 		</section>
