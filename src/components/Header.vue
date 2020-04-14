@@ -1,8 +1,5 @@
 <template>
 	<header class="bg-dark bg-image header">
-		<div class="flex flex-row mb-1 justify-end">
-			<img src="../assets/logo.png" class="w-40">
-		</div>
 		<h1 class="font-sans text-3xl text-center text-light font-bold">Ramadan Recipes</h1>
 		<h2 class="font-sans text-sm text-center text-light mb-4 uppercase tracking-widest font-thin">Lockdown Edition</h2>
 
