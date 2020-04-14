@@ -1,31 +1,41 @@
 <template>
-  <div className="lg:w-60vw lg:max-h-100vh lg:overflow-y-auto flex flex-col justify-between">
-      <section className="py-16">
-        <div className="px-8 max-w-5xl m-auto">
-          <div className="border-b border-orange-200 pb-2 flex justify-between mb-6">
-            <h2 className="font-bold text-gray-900 text-3xl">Recipes</h2>
-            <button
-              onClick={fetchRecipes}
-              disabled={loading}
-              className="px-3 py-2 rounded-md bg-orange-500 text-white focus:outline-none hover:bg-orange-400 disabled:opacity-50 disabled:cursor-not-allowed"
-            >
-              {loading ? `Fetching Recipes` : `Fetch Recipes`}
-            </button>
-          </div>
-          <p className="text-l">{message}</p>
-          <RecipesList recipes={recipes} loading={loading} />
-        </div>
-      </section>
-      <Footer />
-    </div>
+	<main>
+		<section class="flex px-3 bg-dark text-white justify-end py-2">
+			<button class="bg-transparent hover:bg-transparent text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow" v-on:click="getRecipes">
+				Get Recipes!
+			</button>
+		</section>
+
+		<section class="px-3 mb-1 py-2">
+			<RecipesList />
+		</section>
+	</main>
 </template>
 
 <script>
+import RecipesList from "./RecipesList";
+
 export default {
-  name: 'Main',
-  props: {}
+	name: 'Main',
+	data() {
+		return {
+			message: null
+		}
+	},
+	methods: {
+		getRecipes: function () {
+			this.$store.dispatch('getRecipes');
+		}
+	},
+	props: {},
+	components: {
+		RecipesList
+	}
 }
 </script>
 
 <style scoped>
+.bg-dark {
+	background: #13293D;
+}
 </style>

@@ -30,9 +30,6 @@ import topIngredients from "../static-data/top-ingredients.json";
 
 export default {
 	name: 'AddIngredient',
-	computed: {
-
-	},
 	data() {
 		return {
 			filteredOptions: [],

@@ -2,6 +2,7 @@
 	<div id="app">
 		<div class="font-body lg:flex">
 			<Header />
+			<Main />
 		</div>
 	</div>
 </template>
