@@ -3,7 +3,7 @@
 		<div class="flex flex-col bg-white m-auto relative modal">
 			<div class="absolute z-20 w-16 h-16 flex justify-center items-center right-0">
 				<button
-					class=" w-10 h-10 bg-orange-500 rounded-full leading-10 text-white hover:bg-orange-400 focus:outline-none"
+					class="w-10 h-10 bg-dark-500 rounded-full leading-10 text-white hover:bg-dark-400 focus:outline-none"
 					v-on:click="close"
 				>
 					✕
@@ -14,7 +14,7 @@
 				<img class="absolute top-0 left-0 w-full h-full object-cover" :src="recipe.image" :alt="recipe.title" />
 			</div>
 			
-			<div class="p-4 border-b border-orange-200">
+			<div class="p-4 border-b border-dark-200">
 				<h2 class="text-2xl font-semibold">{{ recipe.title }}</h2>
 				<p class="text-sm text-gray-600">
 					From
@@ -48,7 +48,7 @@
 				</div>
 
 				<div v-if="recipe.analyzedInstructions.length < 1">
-					<a :href="recipe.sourceUrl" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-md bg-orange-500 text-white hover:bg-orange-400">
+					<a :href="recipe.sourceUrl" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-md bg-dark-500 text-white hover:bg-orange-400">
 						Click for instructions
 					</a>
 				</div>
