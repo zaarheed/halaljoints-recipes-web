@@ -1,16 +1,13 @@
 <template>
 	<div class="modal-mask">
-		<div class="flex flex-col bg-white m-auto relative max-w-3xl h-screen overflow-hidden modal">
+		<div class="bg-white m-auto max-w-3xl h-screen overflow-y-auto modal">
 			<div class="absolute z-20 w-16 h-16 flex justify-center items-center right-0">
-				<button
-					class="w-10 h-10 bg-dark-500 rounded-full leading-10 text-white hover:bg-dark-400 focus:outline-none"
-					v-on:click="close"
-				>
+				<button class="w-10 h-10 bg-dark-500 rounded-full leading-10 text-white hover:bg-dark-400 focus:outline-none" v-on:click="close">
 					✕
 				</button>
 			</div>
 			
-			<div class="pb-50p relative bg-gray-100">
+			<div class="relative bg-gray-100" style="padding-bottom: 50%;">
 				<img class="absolute top-0 left-0 w-full h-full object-cover" :src="recipe.image" :alt="recipe.title" />
 			</div>
 			
@@ -27,7 +24,7 @@
 			<div class="p-6">
 				<h3 class="text-xl mb-2">Ingredients</h3>
 				<ul>
-					<li class="text-sm text-gray-600 p-3 bg-gray-100 odd:bg-gray-200" v-for="ingredient of recipe.extendedIngredients" :key="ingredient.id">
+					<li class="text-sm text-gray-600 p-3 bg-gray-100 odd:bg-gray-200 ingredient" v-for="ingredient of recipe.extendedIngredients" :key="ingredient.id">
 						{{ingredient.original}}
 					</li>
 				</ul>
@@ -39,7 +36,7 @@
 
 					<ul>
 						<li class="text-sm mb-3 flex items-baseline" v-for="step of recipe.analyzedInstructions[0].steps" :key="step.number">
-							<span class="w-10 h-10 leading-10 bg-organge-600 text-white inline-block text-center rounded-full mr-2 flex-shrink-0">
+							<span class="w-10 h-10 leading-10 bg-dark text-white inline-block text-center rounded-full mr-2 flex-shrink-0">
 								{{step.number}}
 							</span>
 							<span>{{step.step}}</span>
@@ -48,7 +45,7 @@
 				</div>
 
 				<div v-if="recipe.analyzedInstructions.length < 1">
-					<a :href="recipe.sourceUrl" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-md bg-dark-500 text-white hover:bg-orange-400">
+					<a :href="recipe.sourceUrl" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-md bg-dark text-white hover:bg-dark">
 						Click for instructions
 					</a>
 				</div>
@@ -95,6 +92,10 @@ export default {
     background: rgba(0, 0, 0, 0.5);
     z-index: 999;
 	display: flex;
+}
+
+span.ingredient:nth-child(odd) {
+	background-color: #edf2f7;
 }
 
 .pb-50p {
