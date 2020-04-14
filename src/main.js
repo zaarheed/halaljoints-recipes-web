@@ -32,9 +32,9 @@ const store = new Vuex.Store({
 			const encodedIngredients = state.selectedIngredients.map(i => encodeURIComponent(i)).join();
 
 			try {
-				//const response = await axios.get(`https://api.spoonacular.com/recipes/findByIngredients?ingredients=${encodedIngredients}&number=100&ranking=2&ignorePantry=false&apiKey=${apiKey}`)
-				console.log("recipes to commit", example);
-				commit('setRecipes', example);
+				const response = await axios.get(`https://api.spoonacular.com/recipes/findByIngredients?ingredients=${encodedIngredients}&number=100&ranking=2&ignorePantry=false&apiKey=${apiKey}`)
+				console.log("recipes to commit", response.data);
+				commit('setRecipes', response.data);
 			}
 			catch (error) {
 				console.error("error", error);

@@ -55,11 +55,11 @@ export default {
 			this.selectedRecipe = null;
 		},
 		openPopup: async function () {
-			//const response = await axios.get(`https://api.spoonacular.com/recipes/${this.unique}/information?includeNutrition=false&apiKey=0ffdca90a29b485dbe189c73ab9e3f2f`);
+			const response = await axios.get(`https://api.spoonacular.com/recipes/${this.unique}/information?includeNutrition=false&apiKey=0ffdca90a29b485dbe189c73ab9e3f2f`);
 
-			console.log("recipe", singleRecipe);
+			console.log("recipe", response.data);
 
-			this.selectedRecipe = singleRecipe;
+			this.selectedRecipe = response.data;
 			this.showModal = true;
 		}
 	},
