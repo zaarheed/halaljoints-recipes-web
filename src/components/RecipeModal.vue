@@ -1,6 +1,6 @@
 <template>
 	<div class="modal-mask">
-		<div class="flex flex-col bg-white m-auto relative modal">
+		<div class="flex flex-col bg-white m-auto relative max-w-3xl h-screen overflow-hidden modal">
 			<div class="absolute z-20 w-16 h-16 flex justify-center items-center right-0">
 				<button
 					class="w-10 h-10 bg-dark-500 rounded-full leading-10 text-white hover:bg-dark-400 focus:outline-none"
@@ -34,11 +34,11 @@
 			</div>
 
 			<div class="p-6">
-				<div v-if="recipe.analyzedInstructions.lengh > 0">
+				<div v-if="recipe.analyzedInstructions.length > 0">
 					<h3 class="text-xl mb-2">Instructions</h3>
 
 					<ul>
-						<li class="text-sm mb-3 flex items-baseline" v-for="step of analyzedInstructions[0].steps" :key="step.number">
+						<li class="text-sm mb-3 flex items-baseline" v-for="step of recipe.analyzedInstructions[0].steps" :key="step.number">
 							<span class="w-10 h-10 leading-10 bg-organge-600 text-white inline-block text-center rounded-full mr-2 flex-shrink-0">
 								{{step.number}}
 							</span>
