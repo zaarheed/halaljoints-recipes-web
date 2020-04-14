@@ -16,11 +16,7 @@ export default {
 			message: null
 		}
 	},
-	methods: {
-		getRecipes: function () {
-			this.$store.dispatch('getRecipes');
-		}
-	},
+	methods: {},
 	props: {},
 	components: {
 		RecipesList

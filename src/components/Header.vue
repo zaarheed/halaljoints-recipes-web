@@ -24,6 +24,11 @@ export default {
 	components: {
 		AddIngredient,
 		SelectedIngredients
+	},
+	methods: {
+		getRecipes: function () {
+			this.$store.dispatch('getRecipes');
+		}
 	}
 }
 </script>
