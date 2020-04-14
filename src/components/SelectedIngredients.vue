@@ -10,7 +10,7 @@
 				{{ingredient}}
 				<span className="px-1 text-red-600">x</span>
 			</li>
-			<li v-if="selectedIngredients.length < 1" class="text-white">
+			<li v-if="selectedIngredients.length < 1" class="text-white italic">
 				Selected ingredients will appear here
 			</li>
 		</ul>

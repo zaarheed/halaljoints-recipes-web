@@ -1,13 +1,19 @@
 <template>
-	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-black">
-		<RecipeCard
-			v-for="recipe of recipes"
-			:key="recipe.id"
-			:unique="recipe.id"
-			:image="recipe.image"
-			:name="recipe.title"
-			:usedIngredients="recipe.usedIngredients"
-		/>
+	<div>
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-black">
+			<RecipeCard
+				v-for="recipe of recipes"
+				:key="recipe.id"
+				:unique="recipe.id"
+				:image="recipe.image"
+				:name="recipe.title"
+				:usedIngredients="recipe.usedIngredients"
+			/>
+		</div>
+
+		<div v-if="recipes.length < 1">
+			No recipes to show. Add ingredients using the search box and press the button!
+		</div>
 	</div>
 </template>
 
