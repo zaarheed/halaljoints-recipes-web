@@ -1,5 +1,7 @@
 # halaljoints-cooking-ideas
 
+I built this web app during Ramadan 2020 which was during the COVID-19 lockdown. The idea was people could enter menu items they had available without leaving home and the app would suggest recipes they could cook for suhoor (breakfast) and iftar (dinner).
+
 ## Project setup
 ```
 npm install
