@@ -27,7 +27,7 @@ const store = new Vuex.Store({
 	},
 	actions: {
 		async getRecipes ({ commit, state }) {
-			const apiKey = "0ffdca90a29b485dbe189c73ab9e3f2f";
+			const apiKey = "";
 
 			const encodedIngredients = state.selectedIngredients.map(i => encodeURIComponent(i)).join();
 
